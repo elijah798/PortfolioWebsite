@@ -1,0 +1,64 @@
+
+@import url('http://fonts.cdnfonts.com/css/public-sans');
+
+body{
+    font-family: 'public-sans', sans-serif;
+    font-weight: bolder;
+}
+p{
+    font-size: larger;
+}
+#first_page{
+    background-color: #0C1B33;
+    height: 100vh;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.first_page_h1{
+    
+    color: #F28583;
+}
+.first_page_h2{
+    color: white;
+}
+
+#second_page {
+    background-color:#F28583;
+    color: white;
+    height:100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30vh;
+ 
+}
+
+.Yellow_text {
+    color: #F4D35E;
+    text-decoration: underline;
+}
+
+.darkblue_text{
+    color:  #0C1B33;
+    text-decoration: underline;
+}
+
+#technologies{
+    background-color: #28B0B1;
+    padding: 2%;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    
+    justify-content: space-between;
+    
+}
+
+#portrait_img{
+    border-radius: 8px;
+    max-width: 40vh;
+    /* height: 75%; */
+}
