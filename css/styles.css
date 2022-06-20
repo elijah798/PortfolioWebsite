@@ -113,18 +113,25 @@ p{
 
 #third_page{
     
-    height: 100vh;
-    padding:25vh;
+    /* height: 100vh; */
+    padding:10vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
 
+
+
 #project_info{
     display: flex;
+    justify-content: center;
+    align-items: center;
     flex-direction: column;
     justify-content: space-evenly;
+}
+.project-card {
+    margin-top: 60px;
 }
 
 #project_Image {
