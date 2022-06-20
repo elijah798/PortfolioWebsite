@@ -113,7 +113,7 @@ p{
 
 #third_page{
     
-    /* height: 100vh; */
+    height: fit-content;
     padding:10vh;
     display: flex;
     flex-direction: column;
